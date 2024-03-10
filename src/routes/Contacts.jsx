@@ -7,7 +7,7 @@ export default function Contacts() {
     <>
         <Header />
         <div>asdasdasd</div>
-        <Footer />
+        {/* <Footer /> */}
     </>
   )
 }

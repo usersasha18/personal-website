@@ -7,7 +7,7 @@ export default function About() {
     <>
         <Header />
         <div>About</div>
-        <Footer />
+        {/* <Footer /> */}
     </>
   )
 }
