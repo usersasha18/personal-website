@@ -1,18 +1,18 @@
-
+import styles from './NavBar.module.css'
 import { Link } from "react-router-dom"
 
 function NavBar() {
   return (
     <div>
-        <p>
+        <a>
             <Link to='/'>Home</Link>
-        </p>
-        <p>
+        </a>
+        <a>
             <Link to='/contacts'>Contacts</Link>
-        </p>
-        <p>
+        </a>
+        <a>
             <Link to='/about'>About</Link>
-        </p>
+        </a>
     </div>
   )
 }
