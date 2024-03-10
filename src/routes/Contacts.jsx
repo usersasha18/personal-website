@@ -1,11 +1,11 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
+import Header from '../components/Header/Header'
 
 export default function Contacts() {
   return (
     <>
-    <NavBar/>
-    <div>Contacts</div>
+        <Header />
+        <div>asdasdasd</div>
     </>
   )
 }
