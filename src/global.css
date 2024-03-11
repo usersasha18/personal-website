@@ -30,8 +30,25 @@ body {
       box-shadow: 2px 2px 20px rgb(162, 128, 255);
   }
   
-  .about_text {
-    
+
+  .contacts_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .contact_item {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid white;
+    transition: all .3s linear;
+    cursor: pointer;
+  }
+
+  .contact_item:hover{
+    box-shadow: 2px 2px 20px white;
   }
 
   @keyframes gradient {
