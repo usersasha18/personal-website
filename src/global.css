@@ -18,6 +18,22 @@ body {
     color: white
   }
   
+  .about_wrapper {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .about_wrapper img {
+      width: 300px;
+      height: 320px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 20px rgb(162, 128, 255);
+  }
+  
+  .about_text {
+    
+  }
+
   @keyframes gradient {
     0% {
       background-position: 0% 50%;

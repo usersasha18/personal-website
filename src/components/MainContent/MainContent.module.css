@@ -5,4 +5,9 @@
     font-weight: 700;
     font-size: 50px;
     font-style: normal;
-  }
+}
+
+.main_wrapper_text {
+    padding-top: 2rem ;
+    width: 500px;
+}   

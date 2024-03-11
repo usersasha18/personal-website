@@ -1,0 +1,25 @@
+.nav_wrapper a {
+    position: relative;
+    margin-right: 1rem;
+}
+
+.nav_wrapper a:last-child {
+    margin-right: 0;
+}
+
+
+.nav_wrapper a::before {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    content: "";
+    background-color: white;
+    width: 0;
+    height: 2px;
+    transition: all .2s linear;
+}
+
+.nav_wrapper a:hover:before {
+    width: 100%;
+}
+

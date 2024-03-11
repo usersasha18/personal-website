@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className={styles.header}>
         <div className={styles.header_logo}>
-            <a href="">Sashka</a>
+            <a className={styles.header_logo_text} href="">Portfolio</a>
         </div>
         <NavBar />
     </div>
